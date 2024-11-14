@@ -1,0 +1,43 @@
+# Ignora os arquivos binários e de build
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Debian/
+/Makefile
+/Makefile.user
+
+# Arquivos de saída de compilação
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dll
+
+# Arquivos de log
+*.log
+
+# Ignora diretórios de dependências específicos de plataformas
+/deps/glfw/build/
+/deps/glew/build/
+/deps/assimp/build/
+
+# Arquivos de configuração do IDE
+.vscode/
+/.idea/
+/*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Ignora as pastas de configurações de CMake
+*.cmake
+*.gen
+*.cmake-deps
+
+# Arquivos de configurações pessoais (de IDEs como Visual Studio, etc.)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.db
